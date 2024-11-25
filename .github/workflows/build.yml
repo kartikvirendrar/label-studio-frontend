@@ -2,7 +2,7 @@ name: Build and Test
 
 on:
   push:
-    branches: [master, "*/*", "*/**"]
+    branches: [v1.4, "*/*", "*/**"]
 
 env:
   # increment it in case if you need to reset cache
